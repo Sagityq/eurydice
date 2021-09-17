@@ -7,9 +7,9 @@
 <img src="img/eurydice_schema.svg">
 </p>
 
-**eurydice** is an RNA-seq pipeline that identifies short variants (SNPs and 
-indels) from raw sequencing data.The current implementation of
-[GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360035531192-RNAseq-short-variant-discovery-SNPs-Indels-)
+**eurydice** is an RNA-seq pipeline that identifies SNPs and 
+indels from raw sequencing data. The current implementation of
+[GATK workflows for RNA-seq short variant discovery](https://gatk.broadinstitute.org/hc/en-us/articles/360035531192-RNAseq-short-variant-discovery-SNPs-Indels-)
 workflows does not support the joint calling of RNA-seq to operate on a set of 
 samples in parallel. This issue, compounded with inherently long runtimes for 
 GATK tools such as
