@@ -1,6 +1,3 @@
-**2021-09-17 - [[WARNING]] THIS WORKFLOW IS UNDER ACTIVE DEVELOPMENT--**
-**USE AT OWN DISCRETION**
-
 <h1>eurydice: RNA-seq variant calling (GATK)</h1>
 
 <p align="center">
@@ -18,8 +15,3 @@ present a challenge in processing the data efficiently in terms of time and
 resources. **eurydice** was developed with consideration of GATK best practices 
 for variant calling of RNA-seq data and to be scalable on both the sample- and 
 chromosomal-level.
-
-In-depth explanation of the workflow steps, file structure, benchmarking, 
-rationale for software and techniques chosen, and other information 
-may be found on the **eurydice** entry at the 
-[Data Science DokuWiki](https://hpc.agios.local/dokuwiki/doku.php?id=eurydice_gatk_variant_calling).
